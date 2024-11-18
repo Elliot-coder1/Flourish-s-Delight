@@ -425,6 +425,57 @@ footer {
             color: #fff;
         }
 
+        /* For small devices (mobile phones, 576px and up) */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px; /* Increased font size for better readability */
+    }
+
+    .header .left .nav a {
+        font-size: 16px; /* Slightly larger navigation links */
+    }
+
+    .header .right .order .phone {
+        font-size: 14px; /* Adjust phone number size */
+    }
+
+    .header .right .order .order-btn {
+        padding: 12px 15px; /* Larger padding for buttons */
+        font-size: 16px; /* Increased button text size */
+    }
+
+    .food-item {
+        width: 100%; /* Full width for food items */
+        margin-bottom: 15px; /* Reduced margin for better spacing */
+    }
+
+    .food-item .name {
+        font-size: 1.5em; /* Increased food item name size */
+    }
+
+    .food-item .price {
+        font-size: 1.5em; /* Increased price size */
+    }
+
+    .food-item .actions .view,
+    .food-item .actions .add-to-cart {
+        padding: 8px 15px; /* Adjusted padding for buttons */
+        font-size: 14px; /* Increased button text size */
+    }
+
+    footer {
+        padding: 15px 0; /* Reduce footer padding */
+    }
+
+    .footer-container p {
+        font-size: 14px; /* Adjust footer text size */
+    }
+
+    .footer-container .social-media a {
+        font-size: 16px; /* Larger social media icons */
+    }
+}
+
 
         /*contact page styles*/
         .body {
